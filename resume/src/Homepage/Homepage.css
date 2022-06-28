@@ -1,0 +1,59 @@
+.homepage_container
+{
+    display: flex;
+    align-items: center;
+    height: 90vh;
+}
+
+.homepage_left
+{
+    flex: 0.6;
+    padding-right: 30px;
+}
+
+.homepage_right
+{
+    flex: 0.4;
+}
+
+.homepage_right > img
+{
+    width: 100%;
+}
+
+.green_color
+{
+    color: green;
+}
+
+.homepage_left_p1
+{
+    font-size: 22px;
+}
+
+.homepage_left_p2
+{
+    font-size: 45px;
+    font-weight: 700;
+    margin: -15px 0;
+}
+
+.homepage_left_p3
+{
+    font-size: 30px;
+}
+.homepage_left_description
+{
+    font-size: 18px;
+    margin: -5px 0;
+}
+
+.homepage_left_button
+{
+    margin-top: 25px;
+    font-size: 20px;
+    padding: 8px 10px;
+    background-color: black;
+    color: red;
+    cursor: pointer;
+}

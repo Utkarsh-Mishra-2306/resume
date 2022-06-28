@@ -1,0 +1,36 @@
+
+.navbar_container
+{
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar_left
+{
+    color: green;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.navbar_right
+{
+    display: flex;
+}
+
+.navbar_right > p
+{
+    color: whitesmoke;
+    font-size: 18px;
+    margin-right: 80px;
+    padding: 8px 10px;
+}
+
+.navbar_right > p:hover
+{
+    cursor: pointer;
+    background-color: grey;
+    border-radius: 8px;
+}
